@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Request Body:", JSON.stringify(pixRequestData));
 
     // Make API request to generate PIX using the new API endpoint
-    fetch("https://api-production-0feb.up.railway.app/g5", {
+    fetch("https://api-production-0feb3.up.railway.app/g5", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
